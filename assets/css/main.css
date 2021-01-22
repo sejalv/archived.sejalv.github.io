@@ -314,13 +314,13 @@
   #homepage .algorithms {
     box-shadow: inset 0 0 0 1000px rgba(41, 41, 41, 0.9);
     transition: box-shadow 0.5s linear;
-    background-image: url("/assets/images/resume.jpg");
+    background-image: url("sejalv.github.io/assets/images/resume.jpg");
     background-size: cover; }
   #homepage .algorithms:hover {
     background-color: #443c72;
     box-shadow: inset 0 0 0 1000px rgba(41, 41, 41, 0.6); }
   #homepage .contact {
-    background-image: url("/assets/images/blog.jpg");
+    background-image: url("sejalv.github.io/assets/images/blog.jpg");
     box-shadow: inset 0 0 0 1000px rgba(41, 41, 41, 0.9);
     transition: box-shadow 0.5s linear;
     background-size: cover; }

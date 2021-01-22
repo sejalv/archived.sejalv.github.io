@@ -1,0 +1,30 @@
+- name:
+  skills:
+    - class: devicon-python-plain
+      skill_name: Python
+    - class: devicon-flask-plain
+      skill_name: Flask
+
+- name:
+  skills:
+    - class: devicon-apache-plain
+      skill_name: Airflow
+    - class: devicon-apache-plain
+      skill_name: Spark
+
+- name:
+  skills:
+    - class: devicon-amazonwebservices-original
+      skill_name: AWS
+    - class: devicon-docker-plain
+      skill_name: Docker
+
+- name:
+  skills:
+    - class: devicons devicons-streamline
+      skill_name: SQL
+    - class: devicons devicons-database
+      skill_name: NoSQL
+
+
+# devicon-kubernetes-plain

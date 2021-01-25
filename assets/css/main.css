@@ -811,10 +811,10 @@ button.fill:hover:before {
 
 .project {
   width: 90%;
-  height: 400px;
+  height: 150px;
   margin: auto;
   margin-top: 40px;
-  box-shadow: 0 0 1000px 10px black inset; }
+  }
 
 .skill_icon {
   color: #fcf5c7;

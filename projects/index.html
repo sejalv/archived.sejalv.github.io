@@ -2,20 +2,12 @@
 layout: not_homepage
 ---
 
-<div class="project_list" align="center">
-  <h1 class="heading center">Personal Projects</h1>
-<!--  {% for project in site.data.projects %}-->
-<!--    {% include project_box.html %}-->
-<!--  {% endfor %}-->
-  <ul class="fa-ul">
-    <li><a href="https://datatalks.club/blog/ml-deployment-lambda.html">Containerized ML deployment with AWS Lambda</a> for <a href="https://datatalks.club/">DataTalks.Club</a></li>
-    <ul class="fa-ul">
-      <li>Workshop: <a href="https://www.youtube.com/watch?v=79B8AOKkpho">Serverless Machine Learning Deployment with AWS</a></li>
-      <li>Medium: <a href="https://sejalv.medium.com/containerized-ml-deployment-with-aws-lambda-680540fb92f4">Containerized ML deployment with AWS Lambda</a></li>
-    </ul>
-    <li><a href="https://www.dataengineering.academy/pipeline-data-engineering-academy-blog/idataengineer-confessions-interview-003">Data Engineering Confessions</a>: Podcast interview for <a href="https://www.dataengineering.academy/">Pipeline Data Engineering Academy</a></li>
-    <li><a href="https://towardsdatascience.com/sql-in-a-nutshell-part-1-basic-real-world-scenarios-33a25ba8d220">SQL in a Nutshell</a>: Article published in <a href="https://towardsdatascience.com">Towards Data Science</a></li>
-  </ul>
-</div>
-<br>
-<h6 align="center">NOTE: UI of this page is under construction</h6>
+  <div class="container">
+    <div class="row">
+      <h5 class="footer_titles">Personal Projects</h5>
+        {% for project in site.data.projects %}
+        <i class="fa fa-tasks" aria-hidden="true"></i> &nbsp; <span class="footer_link_text"><a class="grey-text text-darken-1" target="_blank" href="{{project.url}}">{{project.name}}</a>{{project.sub_text}}</span>
+        <br><br>
+    {% endfor %}
+    </div>
+    </div>

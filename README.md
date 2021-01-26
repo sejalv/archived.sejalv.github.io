@@ -21,9 +21,9 @@ bash sass_watch.sh
 ```
 
 # Todo
-[] `resume.html`: Prepare and upload Resume
-[] `blog.html`: Markdown integration for posts
-[] `projects.html`: Improve UI
-[] Avail newsletter subscription
+* [x] `resume.html`: Prepare and upload Resume
+* [x] `blog.html`: Markdown integration for posts
+* [x] `projects.html`: Improve UI
+* [ ] Avail newsletter subscription
 
 For more info on how to use jekyll visit https://jekyllrb.com/docs/home/

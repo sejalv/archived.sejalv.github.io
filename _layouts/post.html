@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<main>
+  <div class="my_container">
+    {% include nav.html %}
+    <div class="container">
+      <h2> {{ page.title }} </h2>
+      <div class="footer_link_text">
+          {{content}}
+      </div>
+    </div>
+  </div>
+</main>
+{% include footer.html %}

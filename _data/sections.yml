@@ -1,9 +1,3 @@
-projects:
-  url: /projects
-  heading: Projects
-  words: A list of personal projects ...
-  class: m7 projects
-  border: projects
 about:
   url: /about
   heading: Me
@@ -16,6 +10,12 @@ resume:
   words: View / Download my CV
   class: m6 algorithms
   border: algorithms
+projects:
+  url: /projects
+  heading: Projects
+  words: A list of personal projects ...
+  class: m7 projects
+  border: projects
 blog:
   url: /blog
   heading: Blog

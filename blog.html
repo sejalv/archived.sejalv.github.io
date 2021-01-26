@@ -4,8 +4,8 @@ layout: not_homepage
 
 <div class="project_list">
   <h2 class="heading center">Blog</h2>
-  {% for project in site.posts %}
-      {% include project_box.html %}
+  {% for post in site.posts %}
+      {% include post_box.html %}
   {% endfor %}
 </div>
 

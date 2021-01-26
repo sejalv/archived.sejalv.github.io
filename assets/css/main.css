@@ -34,16 +34,16 @@
   box-sizing: border-box; }
 
 .about__bkgrnd {
-  background-image: url("../images/me.jpg"); }
+  background-image: url("./images/me.jpg"); }
 
 .projects__bkgrnd {
-  background-image: url("../images/projects.jpg"); }
+  background-image: url("./images/projects.jpg"); }
 
 .algorithms__bkgrnd {
-  background-image: url("../images/resume.jpg"); }
+  background-image: url("./images/cv_preview.jpg"); }
 
 .contact__bkgrnd {
-  background-image: url("../images/blog.jpg"); }
+  background-image: url("./images/contact.jpg"); }
 
 .glitch__img:nth-child(n + 2) {
   opacity: 0; }
@@ -296,14 +296,14 @@
     margin: 0;
     z-index: 10; }
   #homepage .about {
-    background-image: url("/assets/images/me.jpg");
+    background-image: url("images/me.jpg");
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(41, 41, 41, 0.9);
     transition: box-shadow 0.5s linear; }
   #homepage .projects {
     box-shadow: inset 0 0 0 1000px rgba(41, 41, 41, 0.9);
     transition: box-shadow 0.5s linear;
-    background-image: url("/assets/images/projects.jpg");
+    background-image: url("images/projects.jpg");
     background-size: cover; }
   #homepage .projects:hover {
     box-shadow: inset 0 0 0 1000px rgba(41, 41, 41, 0.6); }
@@ -314,13 +314,13 @@
   #homepage .algorithms {
     box-shadow: inset 0 0 0 1000px rgba(41, 41, 41, 0.9);
     transition: box-shadow 0.5s linear;
-    background-image: url("sejalv.github.io/assets/images/resume.jpg");
+    background-image: url("./images/cv_preview.jpg");
     background-size: cover; }
   #homepage .algorithms:hover {
     background-color: #443c72;
     box-shadow: inset 0 0 0 1000px rgba(41, 41, 41, 0.6); }
   #homepage .contact {
-    background-image: url("sejalv.github.io/assets/images/blog.jpg");
+    background-image: url("./images/contact.jpg");
     box-shadow: inset 0 0 0 1000px rgba(41, 41, 41, 0.9);
     transition: box-shadow 0.5s linear;
     background-size: cover; }
@@ -532,7 +532,7 @@ i {
   flex-wrap: wrap;
   justify-content: space-between; }
 .about_section .skill_group {
-  width: 20%; }
+  width: 30%; }
 
 .my_footer {
   background-color: #292929;
@@ -813,8 +813,7 @@ button.fill:hover:before {
   width: 90%;
   height: 150px;
   margin: auto;
-  margin-top: 40px;
-  }
+  margin-top: 40px; }
 
 .skill_icon {
   color: #fcf5c7;

@@ -6,7 +6,7 @@ layout: not_homepage
     <div class="row">
       <h5 class="footer_titles">Personal Projects</h5>
         {% for project in site.data.projects %}
-        <i class="fa fa-tasks" aria-hidden="true"></i> &nbsp; <span class="footer_link_text"><a class="grey-text text-darken-1" target="_blank" href="{{project.url}}">{{project.name}}</a>{{project.sub_text}}</span>
+        <i class="fa fa-tasks" aria-hidden="true"></i> &nbsp; <span class="footer_link_text"><a class="grey-text text-darken-1" target="_blank" href="{{project.post_url}}">{{project.name}}</a>{{project.sub_text}}</span>
         <br><br>
     {% endfor %}
     </div>

@@ -1,7 +1,7 @@
 projects:
   url: /projects
   heading: Projects
-  words: A list of my independent projects ...
+  words: A list of personal projects ...
   class: m7 projects
   border: projects
 about:

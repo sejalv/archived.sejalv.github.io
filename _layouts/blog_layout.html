@@ -4,12 +4,21 @@ layout: default
 <main>
   <div class="my_container">
     {% include nav.html %}
-    <div class="row">
+    <div class="row" id="nav-mobile">
       <h2 class="heading center" ><a class="grey-text text-darken-4" href=/blog >Blog</a></h2>
       <div class="col s2">
         {% include sidebar.html %}
       </div>
       <div class="col s10">
+        {{content}}
+      </div>
+    </div>
+    <div class="side-nav" id="mobile-demo">
+      <h2 class="heading center" ><a class="grey-text text-darken-4" href=/blog >Blog</a></h2>
+      <div class="col m1">
+        {% include sidebar.html %}
+      </div>
+      <div class="col m7">
         {{content}}
       </div>
     </div>

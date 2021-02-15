@@ -10,6 +10,16 @@ layout: default
       <div class="footer_link_text">
           {{content}}
       </div>
+      <p class="summary"><span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
+        | {{ page.category }}
+        | <a href=/blog> Blog </a>
+      </p>
+      <span>
+        {% for tag in page.tags %}
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+        {% endfor %}
+      </span>
     </div>
   </div>
 </main>

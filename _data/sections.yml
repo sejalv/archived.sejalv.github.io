@@ -13,7 +13,7 @@ resume:
 projects:
   url: /projects
   heading: Projects
-  words: A list of personal projects ...
+  words: Personal Projects & Publications
   class: m7 projects
   border: projects
 blog:

@@ -1,20 +1,20 @@
 - name: Containerized ML deployment with AWS Lambda
-  post_url: https://datatalks.club/blog/ml-deployment-lambda.html
+  project_url: https://datatalks.club/blog/ml-deployment-lambda.html
   sub_text: ": Article for DataTalks.Club"
 
 - name: Serverless Machine Learning Deployment with AWS
-  post_url: https://www.youtube.com/watch?v=79B8AOKkpho
+  project_url: https://www.youtube.com/watch?v=79B8AOKkpho
   sub_text: ": Workshop for DataTalks.Club"
 
 - name: Containerized ML deployment with AWS Lambda
-  post_url: https://sejalv.medium.com/containerized-ml-deployment-with-aws-lambda-680540fb92f4
+  project_url: https://sejalv.medium.com/containerized-ml-deployment-with-aws-lambda-680540fb92f4
   sub_text: ": Posted on Medium"
 
 - name: "Data Engineering Confessions"
-  post_url: https://www.dataengineering.academy/pipeline-data-engineering-academy-blog/idataengineer-confessions-interview-003
+  project_url: https://www.dataengineering.academy/pipeline-data-engineering-academy-blog/idataengineer-confessions-interview-003
   sub_text: ": Podcast for Pipeline Data Engineering Academy"
 
 - name: "SQL in a Nutshell"
-  post_url: https://towardsdatascience.com/sql-in-a-nutshell-part-1-basic-real-world-scenarios-33a25ba8d220
+  project_url: https://towardsdatascience.com/sql-in-a-nutshell-part-1-basic-real-world-scenarios-33a25ba8d220
   sub_text: ": Article published on Towards Data Science"
 

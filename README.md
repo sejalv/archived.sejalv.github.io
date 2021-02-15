@@ -1,5 +1,5 @@
 # sejalv.github.io
-Personal portfolio page using a jekyll theme created by levytsroman.github.io.
+Personal portfolio page using a jekyll theme created by `levytsroman.github.io`.
 
 # Steps: 
 
@@ -22,7 +22,7 @@ bash sass_watch.sh
 
 # Todo
 * [x] `resume.html`: Prepare and upload Resume
-* [x] `blog.html`: Markdown integration for posts
+* [x] `blog.html`: Tag cloud and filtering of posts.
 * [x] `projects.html`: Improve UI
 * [ ] Avail newsletter subscription
 

@@ -2,8 +2,7 @@
 layout: blog_layout
 ---
 <div class="project_list">
-  {% for post in site.posts %}
+  {% for post in site.tags[page.tag] %}
     {% include post_box.html %}
   {% endfor %}
 </div>
-

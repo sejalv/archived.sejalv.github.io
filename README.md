@@ -15,9 +15,9 @@ bundle install
 bundle exec jekyll serve
 ``` 
 
-3. To compile various sass files into css:
+3. Copy generated tag files to root dir, before pushing commits:
 ```
-bash sass_watch.sh
+cp _site/tag tag
 ```
 
 # Todo

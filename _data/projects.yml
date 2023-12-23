@@ -1,20 +1,15 @@
-- name: Containerized ML deployment with AWS Lambda
-  project_url: https://datatalks.club/blog/ml-deployment-lambda.html
-  sub_text: ": Article for DataTalks.Club"
+- name: "Data Engineering Zoomcamp: Data Talks Club (2022)"
+  project_url: https://github.com/DataTalksClub/data-engineering-zoomcamp
+  sub_text: ": Co-instructor for course on Data Engineering, to build skills in Infrastructure (Terraform), Orchestration (Airflow), Analytical Engineering (DBT), Batch Processing (Spark), & Stream Processing (Kafka)."
 
-- name: Serverless Machine Learning Deployment with AWS
-  project_url: https://www.youtube.com/watch?v=79B8AOKkpho
-  sub_text: ": Workshop for DataTalks.Club"
+- name: "MLOps Zoomcamp : Data Talks Club (2022)"
+  project_url: https://github.com/DataTalksClub/data-engineering-zoomcamp
+  sub_text: ": Co-instructor for course on MLOps, to learn practical aspects of productionizing ML services — from training and experimenting to model deployment and monitoring."
 
-- name: Containerized ML deployment with AWS Lambda
-  project_url: https://sejalv.medium.com/containerized-ml-deployment-with-aws-lambda-680540fb92f4
-  sub_text: ": Posted on Medium"
+- name: "Data Talks Club's minis podcast: From Data Engineering to MLOps (2021)"
+  project_url: https://youtu.be/GELFXfcIJH4
+  sub_text: ": An interview with Alexey Grigorev, on growing the Data Engineering skillset, and integrating MLOps & Production ML practices."
 
-- name: "Data Engineering Confessions"
-  project_url: https://www.dataengineering.academy/pipeline-data-engineering-academy-blog/idataengineer-confessions-interview-003
-  sub_text: ": Podcast for Pipeline Data Engineering Academy"
-
-- name: "SQL in a Nutshell"
-  project_url: https://towardsdatascience.com/sql-in-a-nutshell-part-1-basic-real-world-scenarios-33a25ba8d220
-  sub_text: ": Article published on Towards Data Science"
-
+- name: "Data Engineering Confessions podcast: Episode #3 (2020)"
+  project_url: https://youtu.be/GELFXfcIJH4
+  sub_text: ": An interview with Daniel Molnar on my journey in Data Engineering, and transitioning towards MLOps & infrastructure."

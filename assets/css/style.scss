@@ -35,7 +35,7 @@
   overflow-y: hidden !important;
 }
 
-#projects, .about-me, #algorithms {
+#posts, .about-me, #algorithms {
 
   h3 {
     font-family: 'Abril Fatface', cursive;
@@ -51,12 +51,12 @@
     display: none;
   }
 
-  .project-img {
+  .post-img {
     width: 500px;
     height: 300px;
   }
 
-  .project-wrapper {
+  .post-wrapper {
     width: 100%;
   }
 
@@ -124,7 +124,7 @@ nav {
   padding: 0 2% 0 2%;
 }
 
-.about-me p, .projects-paragraph {
+.about-me p, .posts-paragraph {
   margin: 4%;
   font-size: 25px;
   font-weight: 400;
@@ -133,7 +133,7 @@ nav {
   font-family: $font2;
 }
 
-.projects-paragraph {
+.posts-paragraph {
   color: white;
 }
 

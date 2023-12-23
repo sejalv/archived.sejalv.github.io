@@ -29,17 +29,17 @@ function addActiveTags(buttons){
   return active_tags;
 }
 
-function showProjects(projects, active_tags){
-  projects.each(function(i){
-    var project = $(projects[i]);
-    project.hide();
+function showposts(posts, active_tags){
+  posts.each(function(i){
+    var post = $(posts[i]);
+    post.hide();
 
     $.each(active_tags, function(k){
       var active_tag = active_tags[k],
-      projectContainsTag = project.attr('tags').indexOf(active_tag) > -1;
+      postContainsTag = post.attr('tags').indexOf(active_tag) > -1;
 
-      if(projectContainsTag){
-        project.show();
+      if(postContainsTag){
+        post.show();
       }
     })
   })
@@ -47,7 +47,7 @@ function showProjects(projects, active_tags){
   var activeTagsAreEmpty = active_tags.length === 0;
 
   if(activeTagsAreEmpty){
-    projects.show();
+    posts.show();
   }
 }
 

@@ -37,7 +37,7 @@ function initializeScripts(){
 
   $('#textarea1').trigger('autoresize');
 
-  $('.project_list').on('click', '.next', function(e){
+  $('.post_list').on('click', '.next', function(e){
     e.preventDefault();
     var thisId = $(this).attr('id');
     var nextId = (parseInt(thisId) + 1).toString();
@@ -59,7 +59,7 @@ function initializeScripts(){
     endingTop: '35%',
   })
 
-  $('.project_list .modal').modal({
+  $('.post_list .modal').modal({
       dismissible: true, // Modal can be dismissed by clicking outside of the modal
       opacity: .8, // Opacity of modal background
       inDuration: 200, // Transition in duration
@@ -104,7 +104,7 @@ function initializeScripts(){
 
     var button = $(this),
         tag = $(this).attr('val'),
-        projects = $('.card'),
+        posts = $('.card'),
         buttons = $('.btn'),
         active_tags = [],
         needToClearFilters = tag === "clear-filters";
@@ -114,7 +114,7 @@ function initializeScripts(){
     } else{
       toggleTags(button, tag);
       active_tags = addActiveTags(buttons);
-      showProjects(projects, active_tags);
+      showposts(posts, active_tags);
     }
   })
 

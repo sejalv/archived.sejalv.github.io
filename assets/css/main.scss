@@ -59,7 +59,7 @@ nav ul li a {
   color: black;
 }
 
-.projects_container {
+.posts_container {
   padding: 20px 10px 0 10px;
   width: 100%;
   margin: auto;
@@ -165,7 +165,7 @@ nav ul li {
   left: 500px;
 }
 
-.projects-bottom {
+.posts-bottom {
   margin-top: 50px;
 }
 
@@ -210,12 +210,12 @@ nav ul li {
   color: $modal-text;
 }
 
-.project_list {
+.post_list {
   .modal,
   .modal-footer {
     background-color: $dark-grey;
   }
-  .project_info {
+  .post_info {
     padding: 1%;
     padding-top: 20px;
   }
@@ -240,7 +240,7 @@ nav ul li {
     }
   }
 
-  .project_icons {
+  .post_icons {
     margin-top: 20px;
     font-size: 1.3em;
   }
@@ -375,7 +375,7 @@ button.fill:hover:before {
   color: $modal-text;
 }
 
-.project {
+.post {
   width: 90%;
   height: 150px;
   margin: auto;
@@ -419,7 +419,7 @@ button.fill:hover:before {
   left: -1px;
 }
 
-.projects-border {
+.posts-border {
   bottom: 0;
   left: 0;
 }
@@ -500,7 +500,7 @@ nav a.button-collapse i {
     font-size: 0.9rem;
   }
 
-  .project_list {
+  .post_list {
     .modal {
       margin-top: 2vh !important;
       min-height: 550px !important;

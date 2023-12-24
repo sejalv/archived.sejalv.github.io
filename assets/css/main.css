@@ -439,6 +439,8 @@
 .brand-logo {
   margin-left: 5px;
   margin-top: 5px;
+  max-width: 100%;
+  min-width: 200px;
 }
 
 .barba-old-container {
@@ -630,7 +632,7 @@ i {
 }
 
 .post {
-  border-bottom: solid 1px #2E294E;
+  border-bottom: solid 0px #2E294E;
 }
 
 .time {
@@ -744,7 +746,7 @@ nav ul li {
 .quote {
   font-size: 2rem;
   font-weight: 300;
-  text-indent: 15%;
+  text-indent: 38% !important;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
 }
@@ -807,7 +809,7 @@ nav ul li {
 }
 
 .footer_icons {
-  font-size: 30px !important;
+  font-size: 29px !important;
 }
 
 .footer_description_link {
@@ -824,7 +826,7 @@ nav ul li {
 .footer_link_text {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .about_me_links {
@@ -927,7 +929,8 @@ button {
   font-size: 15px;
   letter-spacing: 0.8px;
   color: #292929;
-  border: 1px #292929 solid !important;
+/*   border: 1px #292929 solid !important; */
+  border: none;
   border-radius: 3px;
   outline: 0;
   overflow: hidden;
@@ -944,6 +947,7 @@ button {
 .buttons button {
   color: #fcf5c7;
   border: 1px #fcf5c7 solid !important;
+  
 }
 
 button:focus {

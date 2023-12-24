@@ -1,16 +1,46 @@
 ---
 layout: not_homepage
-quote: Tech Projects
+quote: Professional
 ---
 
-{% include quote.html quote=page.quote author=page.author %}
+{% include quote.html quote=page.quote %}
+
 
   <div class="container">
+      <p class="heading">Work Experience</p>
+      <div class="row">
+            {% for workex in site.data.work_ex %}
+            <div class="col m6 s6">
+                  <i class="fa fa-briefcase" aria-hidden="true"></i> &nbsp; <span class="footer_link_text">{{workex.company}} ({{workex.location}})<br>{{workex.role}} ({{workex.duration}})</span>
+                  <br><br>
+            </div>
+            {% endfor %}
+      </div>
+      <div class="footer_link_text">
+            <p> More here: <a class="grey-text text-darken-3" target="_blank" href="{{site.linkedin_link}}"><i class="fa fa-linkedin-square footer_icons" aria-hidden="true"></i><span class="footer_link_text"> LinkedIn</span></a></p>
+      </div>
+      <br><p class="heading">Projects</p>
     <div class="row">
-      <h5 class="footer_titles">Tech Projects</h5>
         {% for project in site.data.projects %}
         <i class="fa fa-tasks" aria-hidden="true"></i> &nbsp; <span class="footer_link_text"><a class="grey-text text-darken-1" target="_blank" href="{{project.project_url}}">{{project.name}}</a>{{project.sub_text}}</span>
         <br><br>
     {% endfor %}
     </div>
-</div>
+    <br>
+      <div class="footer_link_text">
+            <p> You may find some of my other work available on the following channels:</p>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row" >
+      <div class="col m4 s6">
+            <a class="grey-text text-darken-3" target="_blank" href="{{site.github_link}}"><i class="fa fa-github footer_icons" aria-hidden="true"></i><span class="footer_link_text"> Github</span></a>
+      </div>
+      <div class="col m4 s6">
+            <a class="grey-text text-darken-3" target="_blank" href="{{site.dtc_link}}"><i class="fa fa-rss footer_icons" aria-hidden="true"></i><span class="footer_link_text" style="font-size:120%"> DataTalks.Club</span></a>
+      </div>
+      <div class="col m4 s6">
+            <a class="grey-text text-darken-3" target="_blank" href="{{site.medium_link}}"><i class="fa fa-medium footer_icons" aria-hidden="true"></i><span class="footer_link_text"> Medium</span></a>
+      </div>
+  </div>

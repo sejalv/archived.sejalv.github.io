@@ -439,6 +439,8 @@
 .brand-logo {
   margin-left: 5px;
   margin-top: 5px;
+  max-width: 100%;
+  min-width: 200px;
 }
 
 .barba-old-container {
@@ -744,7 +746,7 @@ nav ul li {
 .quote {
   font-size: 2rem;
   font-weight: 300;
-  text-indent: 40%;
+  text-indent: 38% !important;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
 }

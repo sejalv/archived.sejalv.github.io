@@ -1,0 +1,29 @@
+- company: "Zalando"
+  role: Senior Software Engineer - ML
+  location: "Berlin"
+  duration: "2022-2023"
+
+- company: "Temedica"
+  role: Data/ML Engineer
+  location: "Munich"
+  duration: "2020-2022"
+
+- company: "Freeletics"
+  role: Data Engineer
+  location: "Munich"
+  duration: "2018-2019"
+
+- company: "LexisNexis Risk Solutions"
+  role: Senior Software Engineer
+  location: "Mumbai"
+  duration: "2015-2016"
+
+- company: "JP Morgan Chase"
+  role: Applications Developer - BI
+  location: "Mumbai"
+  duration: "2013-2015"
+
+- company: "HERE Technologies"
+  role: Analyst
+  location: "Mumbai"
+  duration: "2009-2013"

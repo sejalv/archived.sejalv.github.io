@@ -1,10 +1,12 @@
-<div class="project row" style="background-image: url({{post.cover}}); background-size: cover;">
-  <div class="cover {% cycle 'left', 'right'%} col m5 s12">
+<div class="post row" style="background-image: url({{post.cover}}); background-size: cover;">
+  <div class="cover {% cycle 'left', 'right'%} col m8 s12">
     <div class="valign-wrapper">
       <div class="col s8 offset-s2">
         <!-- Modal Trigger -->
-          <button class="fill col s12 modal-trigger"> <a href="{{ post.url }}">{{ post.title }}</a></button>
+          <button class="fill col s12 modal-trigger"><b> <a href="{{ post.url }}">{{ post.title }}</a></b></button>
       </div>
     </div>
+    <!-- Modal Structure -->
+    {% include post_modal.html %}
   </div>
 </div>

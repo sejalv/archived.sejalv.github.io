@@ -14,16 +14,3 @@ bundle install
 ```
 bundle exec jekyll serve
 ``` 
-
-3. Copy generated tag files to root dir, before pushing commits:
-```
-cp _site/tag tag
-```
-
-# Todo
-* [x] `resume.html`: Prepare and upload Resume
-* [x] `blog.html`: Tag cloud and filtering of posts.
-* [x] `projects.html`: Improve UI
-* [ ] Avail newsletter subscription
-
-For more info on how to use jekyll visit https://jekyllrb.com/docs/home/

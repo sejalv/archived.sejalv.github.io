@@ -1,24 +1,24 @@
 about:
   url: /about
   heading: Me
-  words: Hi, I'm Sejal
+  words: Hi, welcome to my digital corner!
   class: m5 about
   border: about
-resume:
-  url: /resume
-  heading: Resume
-  words: View / Download my CV
-  class: m6 algorithms
-  border: algorithms
 projects:
   url: /projects
-  heading: Projects
-  words: Personal Projects & Publications
+  heading: Professional
+  words: Tech Projects
   class: m7 projects
   border: projects
 blog:
   url: /blog
   heading: Blog
-  words: I write about Tech, Data, Books, Cinema ...
+  words: Books, Cinema, Personal Essays ...
+  class: m6 algorithms
+  border: algorithms
+contact:
+  url: /contact
+  heading: Contact
+  words: Have questions? Email me.
   class: m6 contact
   border: contact

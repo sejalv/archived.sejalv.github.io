@@ -1,9 +1,41 @@
 ---
-layout: blog_layout
+layout: not_homepage
+quote: Blog
 ---
-<div class="project_list">
-  {% for post in site.posts %}
-    {% include post_box.html %}
-  {% endfor %}
+{% include quote.html quote=page.quote %}
+
+<div class="my_container">
+  <div class="row">
+    <div class="col m2 s6">
+      {% include sidebar.html %}
+    </div>
+    <div class="col m10 s6">
+      {% for post in site.posts %}
+        {% include post_box.html %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
 
+<br>
+<div class="posts-bottom center-align">
+  <p class="footer_link_text">Links</p>
+  <div class="row">
+    <div class="col m6 offset-m3 s12">
+      <div class="row">
+        <div class="col s4">
+          <a href="{{site.substack_link}}"><button type="button" class="fill col s12" name="button"> <i class="fa fa-bookmark footer_icons" aria-hidden="true"></i> Substack </button></a>
+        </div>
+        <div class="col s4">
+          <a href="{{site.goodreads_link}}"><button type="button" class="fill col s12" name="button"> <i class="fa fa-book footer_icons" aria-hidden="true"></i> Goodreads</button></a>
+        </div>
+        <div class="col s4">
+          <a href="/contact"><button type="button" class="fill col s12" name="button"> <i class="fa fa-envelope footer_icons" aria-hidden="true"></i> Contact </button></a>
+        </div>
+        <!-- <div class="col s6">
+          <button type="button" class="fill col s12" id="scroll-top" title="scroll back top" name="button">scroll back top</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>

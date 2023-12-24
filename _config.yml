@@ -16,15 +16,17 @@
 
 title: Sejal Vaidya
 email: "vaid.sej@gmail.com"
+em_endpoint: "f/xkndwkyv"
 description: >
-  Data/ML Engineer
+  Analyst & Writer
 about_me: >
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sejalv.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_link: "https://www.linkedin.com/in/vaidyasejal"
+substack_link: "https://sejalv.substack.com/welcome"
+goodreads_link: "https://www.goodreads.com/user/show/1483184-sejal"
 github_link: "https://www.github.com/sejalv"
-twitter_link: "https://twitter.com/sejalv_"
 medium_link: "https://sejalv.medium.com"
 dtc_link: "https://datatalks.club/people/sejalvaidya.html"
 permalink: none

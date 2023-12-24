@@ -4,21 +4,21 @@ about:
   words: Hi, welcome to my digital corner!
   class: m5 about
   border: about
-blog:
-  url: /blog
-  heading: Blog
-  words: Books, Cinema, Personal Essays ...
-  class: m6 contact
-  border: contact
-professional:
+projects:
   url: /projects
   heading: Professional
   words: Tech Projects
   class: m7 projects
   border: projects
+blog:
+  url: /blog
+  heading: Blog
+  words: Books, Cinema, Personal Essays ...
+  class: m6 algorithms
+  border: algorithms
 contact:
   url: /contact
   heading: Contact
   words: Have questions? Email me.
-  class: m6 algorithms
-  border: algorithms
+  class: m6 contact
+  border: contact

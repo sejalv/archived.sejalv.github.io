@@ -807,7 +807,7 @@ nav ul li {
 }
 
 .footer_icons {
-  font-size: 30px !important;
+  font-size: 29px !important;
 }
 
 .footer_description_link {
@@ -824,7 +824,7 @@ nav ul li {
 .footer_link_text {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .about_me_links {
@@ -943,7 +943,8 @@ button {
 
 .buttons button {
   color: #fcf5c7;
-  border: 1px #fcf5c7 solid !important;
+/*   border: 1px #fcf5c7 solid !important; */
+  border: none;
 }
 
 button:focus {

@@ -927,7 +927,8 @@ button {
   font-size: 15px;
   letter-spacing: 0.8px;
   color: #292929;
-  border: 1px #292929 solid !important;
+/*   border: 1px #292929 solid !important; */
+  border: none;
   border-radius: 3px;
   outline: 0;
   overflow: hidden;
@@ -943,8 +944,8 @@ button {
 
 .buttons button {
   color: #fcf5c7;
-/*   border: 1px #fcf5c7 solid !important; */
-  border: none;
+  border: 1px #fcf5c7 solid !important;
+  
 }
 
 button:focus {

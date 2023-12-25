@@ -20,13 +20,15 @@ quote: Professional
             <p> More here: <a class="grey-text text-darken-3" target="_blank" href="{{site.linkedin_link}}"><i class="fa fa-linkedin-square footer_icons" aria-hidden="true"></i><span class="footer_link_text"> LinkedIn</span></a></p>
       </div>
       <br><p class="heading">Projects</p>
-    <div class="row">
-        {% for project in site.data.projects %}
-        <i class="fa fa-tasks" aria-hidden="true"></i> &nbsp; <span class="footer_link_text"><a class="grey-text text-darken-1" target="_blank" href="{{project.project_url}}">{{project.name}}</a>{{project.sub_text}}</span>
-        <br><br>
-    {% endfor %}
-    </div>
-    <br>
+      <div class="row">
+            {% for project in site.data.projects %}
+            <div class="col m6 s6">
+                  <i class="fa fa-tasks" aria-hidden="true"></i> &nbsp; <span class="footer_link_text"><a class="grey-text text-darken-1" target="_blank" href="{{project.project_url}}">{{project.name}}</a><br>{{project.sub_text}} ({{project.duration}})</span>
+                  <br><br>
+            </div>
+            {% endfor %}
+      </div>
+      <br>
       <div class="footer_link_text">
             <p> You may find some of my other work available on the following channels:</p>
       </div>

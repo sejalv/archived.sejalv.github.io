@@ -1,15 +1,19 @@
-- name: "Data Engineering Zoomcamp: Data Talks Club (2022)"
+- name: "Data Engineering Zoomcamp: Data Talks Club"
   project_url: https://github.com/DataTalksClub/data-engineering-zoomcamp
-  sub_text: ": Co-instructor for course on Data Engineering, to build skills in Infrastructure (Terraform), Orchestration (Airflow), Analytical Engineering (DBT), Batch Processing (Spark), & Stream Processing (Kafka)."
+  duration: "2022"
+  sub_text: ": Course instructor"
 
-- name: "MLOps Zoomcamp : Data Talks Club (2022)"
+- name: "MLOps Zoomcamp : Data Talks Club"
   project_url: https://github.com/DataTalksClub/data-engineering-zoomcamp
-  sub_text: ": Co-instructor for course on MLOps, to learn practical aspects of productionizing ML services — from training and experimenting to model deployment and monitoring."
+  duration: "2022"
+  sub_text: ": Course instructor"
 
-- name: "Data Talks Club's minis podcast: From Data Engineering to MLOps (2021)"
+- name: "Data Talks Club's minis podcast: From Data Engineering to MLOps"
   project_url: https://youtu.be/GELFXfcIJH4
-  sub_text: ": An interview with Alexey Grigorev, on growing the Data Engineering skillset, and integrating MLOps & Production ML practices."
+  duration: "2021"
+  sub_text: ": A podcast interview with Alexey Grigorev"
 
-- name: "Data Engineering Confessions podcast: Episode #3 (2020)"
+- name: "Data Engineering Confessions podcast: Episode#3"
   project_url: https://youtu.be/GELFXfcIJH4
-  sub_text: ": An interview with Daniel Molnar on my journey in Data Engineering, and transitioning towards MLOps & infrastructure."
+  duration: "2020"
+  sub_text: ": A podcast interview with Daniel Molnar"

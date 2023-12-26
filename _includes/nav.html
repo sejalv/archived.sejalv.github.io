@@ -11,7 +11,7 @@
     </ul>
     <ul class="side-nav" id="mobile-demo">
       {% for my_section in site.data.sections %}
-        <li><a href={{my_section[1].url}} style="text-transform:lowercase"></span>>{{my_section[1].heading}}</a><div class="nav-underline"></div></li>
+        <li><a href={{my_section[1].url}} style="text-transform:lowercase">{{my_section[1].heading}}</a><div class="nav-underline"></div></li>
       {% endfor %}
     </ul>
   </div>

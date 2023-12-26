@@ -1,19 +1,19 @@
 - name: "Data Engineering Zoomcamp: Data Talks Club"
   project_url: https://github.com/DataTalksClub/data-engineering-zoomcamp
   duration: "2022"
-  sub_text: ": Course instructor"
+  sub_text: "Course instructor"
 
 - name: "MLOps Zoomcamp : Data Talks Club"
   project_url: https://github.com/DataTalksClub/data-engineering-zoomcamp
   duration: "2022"
-  sub_text: ": Course instructor"
+  sub_text: "Course instructor"
 
 - name: "Data Talks Club's minis podcast: From Data Engineering to MLOps"
   project_url: https://youtu.be/GELFXfcIJH4
   duration: "2021"
-  sub_text: ": A podcast interview with Alexey Grigorev"
+  sub_text: "A podcast interview with Alexey Grigorev"
 
 - name: "Data Engineering Confessions podcast: Episode#3"
   project_url: https://youtu.be/GELFXfcIJH4
   duration: "2020"
-  sub_text: ": A podcast interview with Daniel Molnar"
+  sub_text: "A podcast interview with Daniel Molnar"

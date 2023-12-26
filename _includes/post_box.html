@@ -3,7 +3,8 @@
     <div class="valign-wrapper">
       <div class="col s8 offset-s2">
         <!-- Modal Trigger -->
-          <button class="fill col s12 modal-trigger"><b> <a href="{{ post.url }}">{{ post.title }}</a></b></button>
+          <!-- <button class="fill col s12 modal-trigger"><b> <a href="{{ post.url }}">{{ post.title }}</a></b></button> -->
+          <button class="fill col s12 modal-trigger" onclick="embedPost(event, '{{ post.url }}')">{{ post.title }}</button>
       </div>
     </div>
     <!-- Modal Structure -->

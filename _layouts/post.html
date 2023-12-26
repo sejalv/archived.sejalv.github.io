@@ -1,26 +1,29 @@
 ---
 layout: default
 ---
-
 <main>
   <div class="my_container">
-    {% include nav.html %}
+    <!-- {% include nav.html %} -->
     <div class="container">
       <h3> {{ page.title }} </h3>
       <div class="footer_link_text">
           {{content}}
+          <br>
+          {% if {{page.link}} %}
+            <a href='{{page.link}}' target="_blank"> Read on Substack </a>
+          {% endif %}
       </div>
       <p class="summary"><span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
         | {{ page.category }}
-        | <a href=/blog> Blog </a>
+        <!-- | <a href=/blog target="_top"> Blog </a> -->
       </p>
-      <span>
+      <!-- <span>
         {% for tag in page.tags %}
           {% capture tag_name %}{{ tag }}{% endcapture %}
-          <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+          <a href="/tag/{{ tag_name }}" target="_top"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
         {% endfor %}
-      </span>
+      </span> -->
     </div>
   </div>
 </main>
-{% include footer.html %}
+<!-- {% include footer.html %} -->

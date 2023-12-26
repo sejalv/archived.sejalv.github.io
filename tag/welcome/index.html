@@ -7,7 +7,8 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://localhost:4000" />
   <meta property="og:title" content="Sejal Vaidya" />
-  <meta property="og:description" content="Data/ML Engineer" />
+  <meta property="og:description" content="Analyst & Writer
+" />
   <meta property="og:image" content="https://sejalvaidya.com/assets/images/resume.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
@@ -27,42 +28,43 @@
     <div class="barba-container">
       <main>
   <div class="my_container">
+
     <nav class="z-depth-0 transparent">
   <div class="nav-wrapper transparent s12">
-    <a href="/" class="brand-logo"><img src="/assets/images/logo.png" style="width: 20%; height: 20%" alt="website logo"/>
-    </a>
+    <a href="/" class="brand-logo"><img class="brand-logo" src="/assets/images/logo.png" alt="website logo"/> </a>
     <a href="" data-activates="mobile-demo" class="button-collapse large">
       <i class="material-icons black-text sandwich">menu</i>
     </a>
     <ul class="right hide-on-med-and-down" id="nav-mobile">
       
-        <li><a href=/about class="">about</a><div class="nav-underline"></div></li>
+        <li><a href=/about style="text-transform:lowercase" class="">About</a><div class="nav-underline"></div></li>
       
-        <li><a href=/resume class="">resume</a><div class="nav-underline"></div></li>
+        <li><a href=/projects style="text-transform:lowercase" class="">Professional</a><div class="nav-underline"></div></li>
       
-        <li><a href=/posts class="">posts</a><div class="nav-underline"></div></li>
+        <li><a href=/blog style="text-transform:lowercase" class="">Blog</a><div class="nav-underline"></div></li>
       
-        <li><a href=/blog class="">blog</a><div class="nav-underline"></div></li>
+        <li><a href=/contact style="text-transform:lowercase" class="">Contact</a><div class="nav-underline"></div></li>
       
     </ul>
     <ul class="side-nav" id="mobile-demo">
       
-        <li><a href=/about>about</a><div class="nav-underline"></div></li>
+        <li><a href=/about style="text-transform:lowercase">About</a><div class="nav-underline"></div></li>
       
-        <li><a href=/resume>resume</a><div class="nav-underline"></div></li>
+        <li><a href=/projects style="text-transform:lowercase">Professional</a><div class="nav-underline"></div></li>
       
-        <li><a href=/posts>posts</a><div class="nav-underline"></div></li>
+        <li><a href=/blog style="text-transform:lowercase">Blog</a><div class="nav-underline"></div></li>
       
-        <li><a href=/blog>blog</a><div class="nav-underline"></div></li>
+        <li><a href=/contact style="text-transform:lowercase">Contact</a><div class="nav-underline"></div></li>
       
     </ul>
   </div>
 </nav>
 
-    <div class="row">
-      <h2 class="heading center" ><a class="grey-text text-darken-4" href=/blog >Blog</a></h2>
-      <div class="col s2">
-        
+
+    <div class="project_list">
+  <div class="row">
+    <div class="col m2 s4">
+      
 
 
  
@@ -71,86 +73,101 @@
 
 
 
-<ul class="left hide-on-med-and-down" id="nav-mobile">
+<ul>
     
-        <li><a href="/tag/announcement">announcement</a></li>
+        <li><a href="/tag/books">books</a></li>
+    
+        <li><a href="/tag/cinema">cinema</a></li>
+    
+        <li><a href="/tag/recommendations">recommendations</a></li>
     
         <li><a href="/tag/welcome">welcome</a></li>
     
 </ul>
 
-      </div>
-      <div class="col s10">
-        <div class="post_list">
-  
-    <div class="post row" style="background-image: url(/assets/images/blog.jpg); background-size: cover;">
-  <div class="cover left col m5 s12">
+    </div>
+    <div class="col m10 s8">
+      
+      <div class="post row" style="background-image: url(); background-size: cover;">
+  <div class="cover left col m8 s12">
     <div class="valign-wrapper">
       <div class="col s8 offset-s2">
         <!-- Modal Trigger -->
-          <button class="fill col s12 modal-trigger"> <a href="/announcement/welcome.html">Welcome!</a></button>
+          <!-- <button class="fill col s12 modal-trigger"><b> <a href="/welcome/welcome.html">Welcome!</a></b></button> -->
+          <button class="fill col s12 modal-trigger" onclick="embedPost(event, '/welcome/welcome.html')">Welcome!</button>
       </div>
     </div>
-  </div>
-</div>
-
-  
-</div>
-
+    <!-- Modal Structure -->
+    <!-- <div id="/welcome/welcome" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <div class="carousel carousel-slider center" data-indicators="true">
+        
       </div>
-    </div>
-  </div>
-  <div class="posts-bottom center-align">
-    <h1 class="heading">Have questions, comments, feedback? Feel free to reach out!</h1>
-    <div class="row">
-      <div class="col m6 offset-m3 s12">
+      <div class="project_info">
         <div class="row">
-          <div class="col s6 offset-m3">
-            <button type="button" class="fill col s12" id="scroll-top" title="scroll back top" name="button">scroll back top</button>
+          <div class="col s3 m2 info_type">
+            title:
+          </div>
+          <h4 class="col s9 m10">Welcome!</h4>
+        </div>
+        <div class="row">
+          <div class="col s3 m2 info_type">
+            description:
+          </div>
+          <p class="description col s9 m10"></p>
+        </div>
+        <div class="row">
+          <div class="col s3 m2 info_type">
+            skills:
+          </div>
+          <div class="col s9 m10">
+            
           </div>
         </div>
       </div>
     </div>
+    <div class="modal-footer center-align">
+        <div class="buttons">
+          <a class="button_wrapper" target="_blank" href="/welcome/welcome.html"><button class="fill">Live</button></a>
+          <a class="button_wrapper" target="_blank" href=""><button class="fill">Github</button></a>
+          <a href="" class="button_wrapper">
+            <button id="/welcome/welcome" class="next fill">Next</button>
+          </a>
+        </div>
+    </div>
+  </div>
+  </div> -->
+  </div>
+</div>
+      
+    </div>
+  </div>
+</div>
+
+
   </div>
 </main>
 <footer class="page-footer my_footer">
   <div class="container">
-    <div class="row" >
-      <h5 class="white-text footer_titles">Links</h5>
-      <div class="col m4 s6">
-            <a class="grey-text text-lighten-3" target="_blank" href="mailto:vaid.sej@gmail.com"><i class="fa fa-envelope-square footer_icons" aria-hidden="true"></i><span class="footer_link_text"> Email</span></a>
-      </div>
-      <div class="col m4 s6">
-        <a class="grey-text text-lighten-3" target="_blank" href="https://www.linkedin.com/in/vaidyasejal"><i class="fa fa-linkedin-square footer_icons" aria-hidden="true"></i><span class="footer_link_text"> LinkedIn</span></a>
-      </div>
-      <div class="col m4 s6">
-            <a class="grey-text text-lighten-3" target="_blank" href="https://www.github.com/sejalv"><i class="fa fa-github-square footer_icons" aria-hidden="true"></i><span class="footer_link_text"> Github</span></a>
-      </div>
-      <div class="col m4 s6">
-            <a class="grey-text text-lighten-3" target="_blank" href="https://sejalv.medium.com"><i class="fa fa-medium footer_icons" aria-hidden="true"></i><span class="footer_link_text"> Medium</span></a>
-      </div>
-      <div class="col m4 s6">
-            <a class="grey-text text-lighten-3" target="_blank" href="https://twitter.com/sejalv_"><i class="fa fa-twitter-square footer_icons" aria-hidden="true"></i><span class="footer_link_text"> Twitter</span></a>
-      </div>
-      <div class="col m4 s6">
-            <a class="grey-text text-lighten-3" target="_blank" href="https://datatalks.club/people/sejalvaidya.html"><i class="fa fa-rss-square footer_icons" aria-hidden="true"></i><span class="footer_link_text" style="font-size:120%"> DataTalks.Club</span></a>
-      </div>
-    </div>
-    <br>
     <div class="row">
-      <div class="s12">
+      <div class="col m4 s6">
+        <h5 class="white-text footer_titles">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.linkedin.com/in/vaidyasejal"><i class="fa fa-linkedin-square footer_icons" aria-hidden="true"></i><span class="footer_link_text"> LinkedIn</span></a>
+          <li><a class="grey-text text-lighten-3" target="_blank" href="https://sejalv.substack.com/welcome"><i class="fa fa-bookmark footer_icons" aria-hidden="true"></i><span class="footer_link_text"> Substack</span></a></li>
+        </ul>
+      </div>
+      <div class="col l8 s12">
         <h6 class="white-text footer_titles">About Site</h6>
         <p class="grey-text text-lighten-3 description">
-          This website is published using a Jekyll theme created by <a class="footer_description_link" href="https://github.com/LevytsRoman/levytsroman.github.io">Roman Levytskyy</a>.
-          <br>In addition, this website does not show ads, use cookies, or track your data for any analytics.
-          The source code can be viewed <a class="footer_description_link" href="https://github.com/sejalv/sejalv.github.io">here.</a>
+          This website is published using a Jekyll theme created by <a class="footer_description_link" href="https://github.com/LevytsRoman/levytsroman.github.io">Roman Levytskyy</a>, and includes various styling & javascript libraries.
         </p>
       </div>
     </div>
   </div>
   <div class="footer-copyright">
     <div class="container">
-    <a class="grey-text text-lighten-4" href="https://github.com/sejalv/sejalv.github.io">&copy; sejalvaidya 2021</a>
+    <a class="grey-text text-lighten-4" href="https://github.com/sejalv/sejalv.github.io">&copy; sejalvaidya 2024</a>
     </div>
 
   </div>

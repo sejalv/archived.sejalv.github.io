@@ -2,18 +2,23 @@
 layout: not_homepage
 quote: Blog
 ---
+
 {% include quote.html quote=page.quote %}
 
 <div class="my_container">
   <div class="row">
-    <div class="col m2 s4">
+    <!-- <div class="col m2 s4">
       {% include sidebar.html %}
-    </div>
-    <div class="col m10 s8">
+    </div> -->
+    <div class="col m3 s2">
       {% for post in site.posts %}
         {% include post_box.html %}
       {% endfor %}
     </div>
+      <div id="mainPost" class="tabcontent">
+          <!--Loaded content goes here-->
+          <iframe src="welcome/welcome.html" style="width:100%; height:100%; overflow: hidden; border:none;" seamless="seamless"></iframe>
+      </div>
   </div>
 </div>
 

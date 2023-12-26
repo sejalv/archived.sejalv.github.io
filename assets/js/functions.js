@@ -64,3 +64,28 @@ function assignColors(pagename, color){
   $("a:contains('" + pagename + "')").parent().css('background-color', color);
   $("a:contains('" + pagename + "')").css('color', "white");
 }
+
+function embedPost(evt, post_url) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the link that opened the tab
+  document.getElementById("mainPost").style.display = "block";
+  document.getElementById("mainPost").innerHTML='<iframe src="'+ post_url +'" style="width:100%; height:100%; overflow: hidden; border:none;" seamless="seamless" allow-top-navigation></iframe>';
+  // document.getElementById(cityName).innerHTML='<object type="text/html" data="'+post_url+'" style="min-width:100%; min-height: 100%;  style="overflow:hidden;" ></object>';
+
+  evt.currentTarget.className += " active";
+
+}

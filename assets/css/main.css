@@ -44,11 +44,11 @@
 }
 
 .algorithms__bkgrnd {
-  background-image: url("../images/resume.jpg");
+  background-image: url("../images/blog.jpg");
 }
 
 .contact__bkgrnd {
-  background-image: url("../images/blog.jpg");
+  background-image: url("../images/resume.jpg");
 }
 
 .glitch__img:nth-child(n+2) {
